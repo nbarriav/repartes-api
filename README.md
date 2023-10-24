@@ -12,6 +12,13 @@ Además de lo anterior para que el proyecto pueda ser ejecutado se debe crear un
 
 ## Ejecución
 
+Antes de ejecutar la api se deben correr las migraciones de django para crear las tablas en la base de datos. Para esto se debe ejecutar el siguiente comando:
+
+```
+python manage.py makemigrations api
+python manage.py migrate
+```
+
 Para que se pueda ver de manera más rápida el endpoint de optimización de rutas hice un comando personalizado que se puede ejecutar de la siguiente manera:
 
 ```
